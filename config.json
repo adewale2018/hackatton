@@ -1,13 +1,18 @@
 ﻿{
     "connectionString": "mongodb://localhost/node-mongo-signup-verification-api",
-    "secret": "vVmUsp3VOUiULCTrlsuWfg",
+    "secret": "{B6A7B666-1BDA-4BBE-B75A-D086557C5B15}",
     "emailFrom": "info@node-mongo-signup-verification-api.com",
     "smtpOptions": {
-        "host": "smtp.ethereal.email",
-        "port": 587,
-        "auth": {
-            "user": "janae.stark31@ethereal.email",
-            "pass": "UTP7cWJAVCrAeuQKcx"
-        }
+      "service": "gmail",
+      "host": "smtp.ethereal.email",
+      "port": 587,
+      "security": "STARTTLS",
+      "auth": {
+        "user": "hackattontoday@gmail.com",
+        "pass": "Shetima/5717"
+      },
+      "secure": false,
+      "tls": { "rejectUnauthorized": false },
+      "debug": true
     }
-}
+  }
